@@ -30,6 +30,9 @@
   grid-area: c;
   background-color: cornflowerblue;
 }
+.content img {
+  width: 60px;
+}
 /*.App-logo {
   height: 40vmin;
   pointer-events: none;
