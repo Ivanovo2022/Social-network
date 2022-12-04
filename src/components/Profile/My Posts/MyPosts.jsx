@@ -3,6 +3,7 @@ import classes from "./MyPosts.module.css"
 import Post from "./Post/Post"
 
 const MyPosts = () => {
+
   return (
   <div className={classes.item}>
     My posts
@@ -11,20 +12,10 @@ const MyPosts = () => {
       <button>Add post</button>
     </div>
     <div>
-      <Post />
+      <Post message="Hi, haw are you" LikesCount="0" />
+        <Post message="It`s my first post" LikesCount="23" />
     </div>
   </div>);
 };
 
 export default MyPosts;
-
-/*const App = () => {
-  return (
-    <div className='app-wrapper'>
-      <Header />
-      <Navbar />
-      <Profile />
-    </div>);
-}
-
-export default App;*/
