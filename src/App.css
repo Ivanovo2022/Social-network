@@ -17,3 +17,15 @@
   background-color: cornflowerblue;
     
 }
+
+.activeLink {
+  color: gold;
+  /* cursor: default; */
+  text-decoration: none;
+}
+
+.notActive {
+  color: white;
+  /* cursor: default; */
+  text-decoration: none;
+}
