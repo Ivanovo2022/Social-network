@@ -1,12 +1,20 @@
 .posts {
   margin-top: 20px;
   color: greenyellow;
+  padding: 10px;
+}
+
+.add_post {
+  padding: 5px;
+}
+
+.textarea {
+  padding: 5px;
 }
 
 .post_block {
-  padding: 10px;
+  padding: 5px;
 };
-
 
 .content {
   grid-area: c;

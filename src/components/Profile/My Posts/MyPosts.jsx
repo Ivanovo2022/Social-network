@@ -4,6 +4,13 @@ import classes from "./MyPosts.module.css"
 
 const MyPosts = () => {
 
+  let postData = [
+    { id: 1, message: "Hi, haw are you", LikesCount : 12 },
+    { id: 2, message: "It`s my first post", LikesCount: 25 },
+]
+
+  let postsElem = postData.map(post => <Post message={post.message} LikesCount={post.LikesCount} />)
+
   return (
   <div >
     <div className={classes.post_block}>
@@ -11,15 +18,14 @@ const MyPosts = () => {
             My MyPosts
         </h3>
     </div>
-    <div>
+    <div className={classes.textarea}>
       <textarea></textarea>
     </div>
-    <div>
+    <div className={classes.add_post}>
       <button>Add post</button>
     </div>
     <div className={classes.posts}>
-      <Post message="Hi, haw are you" LikesCount="0" />
-      <Post message="It`s my first post" LikesCount="23" />
+      {postsElem}
     </div>
   </div>);
 };

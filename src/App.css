@@ -20,7 +20,7 @@
 
 .activeLink {
   color: gold;
-  /* cursor: default; */
+  cursor: default;
   text-decoration: none;
 }
 
