@@ -2,7 +2,7 @@
 
 .dialogs {
   display: grid;
-  grid-template-columns: 2fr 10fr;
+  grid-template-columns: repeat(3, 1fr) ;
   padding: 0px;
   color: white;
 };

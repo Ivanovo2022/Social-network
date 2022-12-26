@@ -7,7 +7,15 @@
 
 .messages {
   display: grid;
-  padding-top: 30px;
+  padding-top: 10px;
   
+}
+
+.right{
+  display: grid;
+  margin-right: 20px;
+  justify-self: end;
+  padding-top: 10px;
+
 }
 

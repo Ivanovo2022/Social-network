@@ -8,24 +8,22 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
 const App = (props) => {
 
-
   return (
-
       <BrowserRouter>
         <div className='app-wrapper'>
           <Header />
           <Navbar state={props.state.sideBar}/>
           <div className="app-wrapper-content" >
             <Routes path="">
-              <Route path='/' element={<Dialogs 
+              <Route path='/' element={<Dialogs
               state={props.state.dialogsPage} />} />
-              <Route path='/profile' element={<Profile 
+              <Route path='/profile' element={<Profile
               state={props.state.profilePage}/>} />
             </Routes>
           </div>
         </div>
       </BrowserRouter>
-  )
+    )
 }
 
 

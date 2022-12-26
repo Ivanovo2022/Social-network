@@ -22,7 +22,7 @@ const Navbar = (props) => {
             <div className={classes.item}>
                 <a>Music</a>
             </div>
-            <div className={classes.item}>
+            <div className={classes.settings}>
                 <a>Settings</a>
             </div>
             <h2>Friends</h2>
@@ -30,7 +30,7 @@ const Navbar = (props) => {
                 {friendsElem}
             </div>
         
-    </nav>
+        </nav>
     )
 }
 
